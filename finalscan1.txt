@@ -1,0 +1,41 @@
+# Nmap 7.95 scan initiated Thu Feb 12 02:34:10 2026 as: /usr/lib/nmap/nmap -sS -oN finalscan1.txt 192.168.1.0/24
+Nmap scan report for Unit (192.168.1.1)
+Host is up (0.0069s latency).
+Not shown: 993 filtered tcp ports (no-response), 2 filtered tcp ports (port-unreach)
+PORT      STATE  SERVICE
+22/tcp    closed ssh
+443/tcp   open   https
+49153/tcp closed unknown
+49155/tcp closed unknown
+49161/tcp closed unknown
+MAC Address: A4:FC:A1:60:C7:40 (Nokia Solutions and Networks GmbH & KG)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.039s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+9080/tcp filtered glrpc
+MAC Address: 1E:D0:30:BA:15:77 (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0058s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: 38:64:07:EB:C4:BA (Qingdao Intelligent&Precise Electronics)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.00014s latency).
+All 1000 scanned ports on 192.168.1.7 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 94:BB:43:28:D3:7A (AzureWave Technology)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0000080s latency).
+All 1000 scanned ports on 192.168.1.6 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Thu Feb 12 02:34:34 2026 -- 256 IP addresses (5 hosts up) scanned in 23.86 seconds
